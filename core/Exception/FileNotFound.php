@@ -2,14 +2,14 @@
 namespace Core\Exception;
 
 /**
- * Logic - Ошибка, которая возникает при возникновении логической ошибки
+ * FileNotFound - Ошибка, которая возникает при необнаружении файла
  *
  * @author  eVa laboratory <http://www.evalab.ru>
  * @package eVaCore
  * @version 0.1
  * @license Shared Code <http://evacore.evalab.ru/license.html>
  */
-class SQL extends \Core\Exception\Simple {
+class FileNotFound extends \Core\Exception\IO {
 
 }
 
